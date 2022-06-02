@@ -1,0 +1,42 @@
+@import 'variables';
+
+.fa-expand{
+  color: $japanese-carmine;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+}
+
+.user_home_main_container{
+  
+  padding-top: 6em;
+    
+}
+
+.gig_card_container {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 1em;
+  margin: 1em;
+  position: relative;
+  cursor: pointer;
+  
+  
+  .card_title {
+    font-family: $header-fonts;
+    font-size: 24px;
+    font-weight: 800;
+    color: $japanese-carmine;
+  }
+
+  p{
+    font-family: $site-font;
+  }
+}
+
+.gig_card_container:hover {
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}

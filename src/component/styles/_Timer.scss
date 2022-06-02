@@ -1,0 +1,50 @@
+@import 'variables';
+
+.fa-play-circle{
+  color: $rich-electric-blue;
+  font-size: 40px;
+  margin-right: .5em;
+  cursor: pointer;
+}
+
+.fa-pause-circle{
+  color: $japanese-carmine;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+
+.fa-redo-alt{
+  color: $spanish-gray;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fa-stop-circle{
+  color: $japanese-carmine;
+  font-size: 40px;
+  margin-left: .5em;
+  cursor: pointer;
+}
+
+.fa-pen{
+  color: $charcoal;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.countdown{
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 35px;
+  color: $charcoal;
+}
+
+.input_edit_timer{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 10%;
+  padding: 1em;
+  margin: 1em;
+  
+}

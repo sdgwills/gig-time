@@ -1,0 +1,1 @@
+select * from task where gig_id=$1

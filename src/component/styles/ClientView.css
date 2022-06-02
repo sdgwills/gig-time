@@ -1,0 +1,27 @@
+.main {
+  padding-top: 10vh;
+  border: black 1px solid;  
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.moneyInfo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box {
+  margin: 10px;
+}
+
+.projectBox {
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

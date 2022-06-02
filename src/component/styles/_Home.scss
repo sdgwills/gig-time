@@ -1,0 +1,41 @@
+@import "variables";
+
+.homeBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.homeMain  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+  width: 80vw;
+}
+
+
+.learnMore {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerBox {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,80 @@
+@import 'variables';
+.navbar {
+  font-family: $header-fonts;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background: $charcoal;
+  color: $ghost-white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  font-size: 12px;
+  z-index:10;
+  
+
+    span{
+      font-size: 30px;
+      color: $ghost-white;
+    }
+
+    div{
+      .loginJacob{
+        display: flex;
+        font-size: 15px;
+      }
+
+    }
+
+}
+.fas{
+  font-size: 20px;
+}
+.link_text{
+  color: $rich-electric-blue;
+  text-decoration: none;
+  font-size: 20px;
+}
+.loginJacob {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu_logout_container{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
+  height: 60px;
+}
+.login-button{
+  height: 40px;
+  width: 100px;
+  font-size: 1.5em;
+  border-radius: 2px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+}
+.login-button:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #2196f3, -1px -1px 1px #2196f3;
+  border-radius: 3px;
+  transition: 100ms
+}
+@media(min-width: 900px){
+  .menu_logout_container{
+    width: 600px;
+    justify-content: space-between;
+  }
+  .welcome_logout-container{
+    font-size: 2em;
+  }
+}
+
+
+
